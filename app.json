@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/location/location",
-    "pages/form/form"
+    "pages/form/form",
+    "pages/ajax/ajax"
   ],
   "window":{
     "backgroundTextStyle":"light",

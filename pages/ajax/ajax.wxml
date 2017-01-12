@@ -1,0 +1,8 @@
+<!--pages/ajax/ajax.wxml-->
+<view class="container">
+    <view class="view-url">
+        <small>输入个url:</small> 
+        <input class="input-url" value="{{url}}" auto-focus/>
+    </view>
+    <button type="default" bindtap="handleAjax"> 发个GET请求 </button>
+</view>

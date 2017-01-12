@@ -9,7 +9,7 @@
     <button type="primary" bindtap="handleBtnLog"> 显示日志 </button>
     <button type="primary" bindtap="handleBtnLocation"> 获取与显示位置 </button>
     <button type="primary" bindtap="handleBtnForm">填写表单</button>
-    <button type="primary">发送Ajax请求</button>
+    <button type="primary" bindtap="handleBtn" data-url="../ajax/ajax">发送Ajax请求</button>
     <button type="primary">扫描二维码</button>
     <button type="primary">登陆与鉴权</button>
   </view>

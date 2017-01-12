@@ -1,0 +1,13 @@
+/* pages/ajax/ajax.wxss */
+.container{
+    background-color: #eee;
+}
+
+.view-url{
+    margin-bottom: 40px;
+}
+
+.input-url{
+    color: #777;
+    border: 1px;
+}

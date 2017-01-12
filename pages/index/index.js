@@ -7,7 +7,7 @@ Page({
     userInfo: {},
     loc:{},
   },
-  //事件处理函数
+  //按钮事件处理函数
   handleBtnLog() {
     wx.navigateTo({
       url: '../logs/logs'
@@ -21,6 +21,12 @@ Page({
   handleBtnForm(){
     wx.navigateTo({
       url: '../form/form',
+    })
+  },
+  //下面的处理方式更好
+  handleBtn(e){
+    wx.navigateTo({
+      url: e.target.dataset.url
     })
   },
   onLoad: function () {
