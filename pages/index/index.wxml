@@ -1,12 +1,16 @@
+
 <!--index.wxml-->
 <view class="container">
-  <view  bindtap="bindViewTap" class="welcome">
+  <view bindtap="bindViewTap" class="welcome">
     <text class="welcome-title">欢迎, {{userInfo.nickName}}</text>
     <text class="welcome-note"> 微信开发者工具版本 :0.12.130400</text>
   </view>
   <view class="btns">
     <button type="primary" bindtap="handleBtnLog"> 显示日志 </button>
-    <button type="primary" bindtap="handleBtnLocation"> 获取位置 </button>
+    <button type="primary" bindtap="handleBtnLocation"> 获取与显示位置 </button>
+    <button type="primary" bindtap="handleBtnForm">填写表单</button>
+    <button type="primary">发送Ajax请求</button>
+    <button type="primary">扫描二维码</button>
+    <button type="primary">登陆与鉴权</button>
   </view>
-  
 </view>

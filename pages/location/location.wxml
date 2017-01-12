@@ -1,10 +1,11 @@
   
 <view class="container">  
-  <view>
-    <text> {{loc.message}} </text>
-    <text> {{loc.latitude }} </text>
-    <text> {{loc.longitude }} </text>
-    <text> {{loc.speed }} </text>
-    <text> {{loc.accuracy }} </text>
+  <view class="info">
+    <text> 获取位置状态: {{loc.message}} </text>
+    <text> 纬度: {{loc.latitude }} </text>
+    <text> 经度: {{loc.longitude }} </text>
+    <text> 速度: {{loc.speed }} </text>
+    <text> 精确度 :{{loc.accuracy }} </text>
   </view>
+  <button type="warn" bindtap="handleShowPosition" class="btn-show-position">在地图上显示当前位置</button>
 </view>
