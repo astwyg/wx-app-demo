@@ -1,0 +1,10 @@
+  
+<view class="container">  
+  <view>
+    <text> {{loc.message}} </text>
+    <text> {{loc.latitude }} </text>
+    <text> {{loc.longitude }} </text>
+    <text> {{loc.speed }} </text>
+    <text> {{loc.accuracy }} </text>
+  </view>
+</view>
